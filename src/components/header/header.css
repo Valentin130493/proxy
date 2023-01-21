@@ -1,0 +1,30 @@
+.header {
+    width: 100%;
+    min-height: 70px;
+    background: #2D3748;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 19px;
+}
+
+.header__back {
+    border: none;
+    outline: none;
+    color: #fff;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+    margin: 10px;
+}
+
+.header__back:hover {
+    cursor: pointer;
+}
+
+.header__p {
+    margin: 10px;
+}
+

@@ -1,0 +1,21 @@
+.post {
+    display: flex;
+    flex-direction: column;
+}
+
+.post__title {
+    padding: 10px;
+    color: #2D3748;
+    text-align: center;
+}
+
+.post__text {
+    padding: 10px;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .post {
+        max-width: 370px;
+    }
+}
