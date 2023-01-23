@@ -5,7 +5,7 @@ import "./error.css";
 
 export const Error = () => {
   const location = useLocation();
-  console.log(location);
+
   return (
     <div className={"error"}>
       <h1>Oops!</h1>
